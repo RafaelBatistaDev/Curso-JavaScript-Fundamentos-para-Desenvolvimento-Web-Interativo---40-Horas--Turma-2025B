@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <script src="/script/idex9.js" defer></script>
+
+</head>
+<body>
+    <br>
+    <label for="name">Name: </label>
+<input id="name" type="text" [formControl]="name">
+<br>
+    <form id="myForm" action="">
+    <label for="userEmail">E-mail:</label>
+    <input type="email" id="userEmail" name="userEmail" required>
+    <button type="submit">Enviar</button>
+  </form>
+    <br>
+      <button id="clickButton">Clique em mim</button>
+  <div id="box">Passe o mouse aqui</div>
+
+   <input type="text" id="inputBox" size="40" placeholder="Digite algo e pressione Enter">
+  <p id="feedback"></p>
+
+    <form id="meuFormulario">
+    <label for="username">Nome de Usuário:</label>
+    <input type="text" id="username" name="username" required>
+    <br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    <br>
+    <button type="submit">Enviar</button>
+  </form>
+  <div id="mensagem"></div>
+  <br>
+    <div id="resizeInfo">Tamanho da janela: </div>
+<br>
+<video id="videoPlayer" width="320" height="240" controls>
+    <source src="movie.mp4" type="video/mp4">
+    Seu navegador não suporta vídeos.
+  </video>
+  <button id="playButton">Play</button>
+  <button id="pauseButton">Pause</button>
+  <br>
+  <h1>Exemplo de DOMContentLoaded</h1>
+  <div id="message"></div>
+  <br>
+      <label for="userName">Nome:</label>
+    <input type="text" id="userName" name="userName" required>
+
+    <label for="userAge">Idade:</label>
+    <input type="number" id="userAge" name="userAge" required>
+
+    <button type="submit">Enviar</button>
+    <br>
+    <form id="myForm" action="">
+    <label for="even">Somente números naturais pares até 100:</label>
+    <input type="number" id="even" name="even" min="0" max="100" step="2" required>
+
+    <button type="submit">Enviar</button>
+</form>
+<br>
+<form id="myForm" action="">
+    <input type="text" name="username" placeholder="Digite seu nome">
+    <input type="number" name="age" placeholder="Digite sua idade">
+    <input type="email" name="userEmail" placeholder="Digite seu email">
+    <input type="url" name="website" placeholder="https://example.com">
+    <input type="password" name="password" placeholder="Digite sua senha">
+    <input type="range" name="volume" min="0" max="100" step="1">
+    <button type="submit">Enviar</button>
+    <br>
+    <form id="myForm" action="">
+    <label for="cep">CEP (Formato: 12345-678):</label>
+    <input type="text" id="cep" name="cep" pattern="\d{5}-\d{3}" title="Formato: 12345-678" required>
+    <button type="submit">Enviar</button>
+</form>
+</form>
+</body>
+</html>
